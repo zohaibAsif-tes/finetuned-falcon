@@ -1,0 +1,11 @@
+pip install bitsandbytes --progress-bar off
+pip install torch --progress-bar off
+pip install -U transformers --progress-bar off
+pip install -U peft --progress-bar off
+pip install -U accelerate --progress-bar off
+pip install datasets --progress-bar off
+pip install loralib --progress-bar off
+pip install einops --progress-bar off
+pip install scipy
+pip install gradio
+pip install nvidia-ml-py3
