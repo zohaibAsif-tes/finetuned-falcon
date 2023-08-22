@@ -21,7 +21,7 @@ import gradio as gr
 
 # Load Trained Model
 
-PEFT_MODEL = "trained_model"
+PEFT_MODEL = "reach_trained_model"
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -69,8 +69,8 @@ gr.Interface(
     fn=generate_response,
     inputs=["text"],
     outputs=["text"],
-    title="Falcon-7b",
-    description="Trained on Ecommerce FAQ",
+    title="Finetuned Falcon-7b",
+    description="Trained on Reach Chatbot Data",
     theme="finlaymacklon/boxy_violet",
 ).launch(server_port=8050, share=True)
 

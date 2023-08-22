@@ -1,0 +1,47 @@
+How do I create a new shipment?
+Click on the + sign and select “Create New Shipment”. Provide all the shipment details that include Package Name, Pickup and Drop-off location, Delivery Type, Container and Material Details, and the package description.
+
+What is the difference between assigning a release order and booking a shipment?
+Assign release order allows users to send digitally converted SRO for Carriers to be able to pick up shipments from terminals and book a shipment allows users to define shipment & find the right Carrier to move shipment. Also, enables end-to-end tracking and communication.
+
+What are your shipping rates?
+Our shipping rates vary depending on factors such as the weight, dimensions, destination, and nationality of the Carrier. To get an accurate quote, please provide specific details when you create the shipment.
+
+How long does it take for a package to be delivered?
+The delivery time depends on the destination type.
+
+Do You Have Debit/Credit Services?
+Yes, we support both debit and credit payments.
+
+Can I change the delivery address of my package?
+Yes, it's possible to change the delivery address of your package if it hasn't been dispatched yet.
+
+Will I get a refund if I paid for my shipment which got canceled?
+In the case of a shipment getting canceled after the payment has been made, the system instantly files a refund request which after processing gets sent to your account.
+
+How can I contact your customer support?
+You can reach our customer support team by sending an email to info@reachlogistics.om
+
+How can I register as a Carrier?
+You can register through the mobile app by providing your mobile number. An OTP will be sent to the given mobile number, and after the OTP validation, you can set the password and log in to use the REACH app.
+
+What qualifications or skills are required to become a logistics Carrier?
+You need to have valid license and vehicle details in order to become a Carrier.
+
+When will I get paid?
+You will get paid when you reach a minimum threshold amount set by the Company.
+
+How much I can earn weekly?
+You can earn as much as you can. All you need to deliver shipments in a timely manner and be responsive to shipment requests.
+
+How can I delete my account?
+Go to profile settings, and delete your account. Please note that all your data will be removed from the system when you delete your account.
+
+What is the Company registration process?
+You need to provide a valid CR number, and authorized user details like Civil ID, date of birth, mobile number, and email address.
+
+Is there any minimum or maximum limit to add Trucks, Trailers, and Carriers?
+There is no minimum or maximum limit required.
+
+When will I get paid?
+You will get paid when you reach a minimum threshold amount set by the Company.

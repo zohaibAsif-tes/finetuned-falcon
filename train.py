@@ -25,9 +25,6 @@ from transformers import (
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-with open("ecommerce-faq.json") as json_file:
-    data = json.load(json_file)
-
 
 # Load Falcon Model and Tokenizer
 
@@ -68,16 +65,7 @@ model = get_peft_model(model, config)
 
 # Tokenize data
 
-def save_text_file(filepath, data):
-    with open(filepath, "w", encoding="utf-8") as f:
-        for item in data:
-            f.write(item["question"] + "\n")
-            f.write(item["answer"] + "\n\n")
-            
-
-save_text_file("train_data.txt", data)
-
-train_data = TextDataset(tokenizer, "./train_data.txt", block_size=128)
+train_data = TextDataset(tokenizer, "./reach-chatbot.txt", block_size=128)
 
 
 # Training
@@ -112,4 +100,4 @@ trainer.train()
 
 # Save Trained Model
 
-model.save_pretrained("trained_model")
+model.save_pretrained("reach_trained_model")
